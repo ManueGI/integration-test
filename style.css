@@ -2,6 +2,10 @@ body {
     margin: 0;
     font-family: lato;
 }
+p {
+    font-size: 12px;
+    line-height: 2em;
+}
 body > main {
     background-image: url(img/background.png);
     background-position: bottom;
@@ -22,13 +26,8 @@ body > main > h1 {
 body > main > p{
     width: 500px;
     margin:10px auto 15vh auto;
-    font-size: 12px;
     font-style: italic;
-}
-
-body > main a {
-    color: #ffffff;
-    text-decoration: none;
+    line-height: 1.5em;
 }
 
 body > main > a:first-of-type {
@@ -50,6 +49,40 @@ body > main > footer {
 
 body > main .button {
     background-color: #8dcac7;
+    border : none
+    
+}
+
+#intro {
+    background-color: #e1bb74;
+    background-image: url(img/iPad.png);
+    background-position: right -30% top 100px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: #fff;
+}
+
+#intro h2 {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+#intro div  {
+    width: 1268px;
+    margin: auto;
+}
+
+#intro article {
+    width: 50%;
+}
+
+.button {
+    display: inline-block;
+    background-color: #e1bb74;
     padding: 15px 50px;
     border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    border : solid 2px;
 }
