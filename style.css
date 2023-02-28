@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: lato;
+}
+body > main {
+    background-image: url(img/background.png);
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+body > main > h1 {
+    margin: 0;
+    padding-top: 15vh;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+body > main > p{
+    width: 500px;
+    margin:10px auto 15vh auto;
+    font-size: 12px;
+    font-style: italic;
+}
+
+body > main a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body > main > a:first-of-type {
+display: block;
+border: solid #fff 4px; 
+width: 27px;
+height: 27px;
+margin: auto;
+border-radius: 50%;
+padding: 10px;
+
+}
+
+body > main > footer {
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+}
+
+body > main .button {
+    background-color: #8dcac7;
+    padding: 15px 50px;
+    border-radius: 3px;
+}
